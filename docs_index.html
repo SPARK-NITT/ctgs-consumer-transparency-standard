@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spark-CTGS — Consumer Transparency Governance Standard (v1.0)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0b1015;
+      color: #f5f7fa;
+      line-height: 1.6;
+    }
+    header {
+      padding: 3rem 1.5rem 1.5rem;
+      text-align: center;
+      background: radial-gradient(circle at top, #1c2838, #05070a);
+      border-bottom: 1px solid #222b36;
+    }
+    h1 {
+      margin: 0 0 0.5rem;
+      font-size: 1.9rem;
+      letter-spacing: 0.03em;
+    }
+    .tagline {
+      margin-top: 0.75rem;
+      font-style: italic;
+      opacity: 0.9;
+    }
+    main {
+      padding: 2rem 1.5rem 3rem;
+      max-width: 60rem;
+      margin: 0 auto;
+    }
+    h2 {
+      margin-top: 1.8rem;
+      font-size: 1.3rem;
+    }
+    p {
+      margin: 0.4rem 0;
+      max-width: 46rem;
+    }
+    ul {
+      max-width: 46rem;
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.85rem;
+      background: #05070a;
+      padding: 0.1rem 0.25rem;
+      border-radius: 4px;
+    }
+    footer {
+      padding: 1.2rem 1.5rem 2.5rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #9aa6ba;
+      border-top: 1px solid #1c2530;
+      background: #05070a;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Spark-CTGS</h1>
+    <p>Consumer Transparency Governance Standard (v1.0)</p>
+    <p class="tagline">
+      If the system profits from your confusion, it’s already broken.<br>
+      Consumers aren’t the test bench. They’re the boundary.
+    </p>
+  </header>
+
+  <main>
+    <section>
+      <h2>What CTGS is</h2>
+      <p>
+        The Consumer Transparency Governance Standard (CTGS) defines how
+        consumer-facing systems must behave when things go wrong. It focuses
+        on recursive harm patterns such as:
+      </p>
+      <ul>
+        <li>repeating setup / reset loops that never resolve (failure cycles)</li>
+        <li>compounding “fix” costs that exceed the value of the product</li>
+        <li>hidden ecosystem locks and incompatibilities</li>
+        <li>float capture during returns, upgrades, and disputes</li>
+        <li>AI recommenders that steer users into known failure patterns</li>
+      </ul>
+      <p>
+        This repository contains the CTGS v1.0 standard, implementation notes,
+        licensing, and integrity proofs (hashes and notarization).
+      </p>
+    </section>
+
+    <section>
+      <h2>Key files in this repository</h2>
+      <ul>
+        <li><code>Standard_v1.0.md</code> — formal CTGS v1.0 specification.</li>
+        <li><code>Implementation_Notes_v1.0.md</code> — non-normative guidance and examples.</li>
+        <li><code>LICENSE</code> — MIT License for code and tooling.</li>
+        <li><code>LICENSE-CC-BY-4.0.md</code> — CC BY 4.0 for the standard text.</li>
+        <li><code>HASHES.md</code>, <code>HASHES.md.ots</code>, <code>NOTARIZATION.md</code> — integrity and notarization chain.</li>
+      </ul>
+      <p>
+        Additional folders such as <code>docs/</code>, <code>schemas/</code>,
+        or <code>ctgs/</code> can be added over time as the project grows.
+      </p>
+    </section>
+
+    <section>
+      <h2>Planned GitHub Pages usage</h2>
+      <p>
+        This file (<code>docs/index.html</code>) is the planned landing page
+        for CTGS when GitHub Pages is enabled. It is safe to create and edit
+        while the repository is private and does not depend on any hosting
+        being active.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Spark-CTGS — Consumer Transparency Governance Standard (v1.0)
+  </footer>
+</body>
+</html>
