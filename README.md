@@ -514,21 +514,12 @@ you are encouraged to share them (subject to the repo’s contribution guideline
 
 
 
-\## 10. License
+\## License
 
+Non-commercial redistribution is allowed **only as an unchanged copy**. **No derivatives.**
+Commercial use (including sale/monetization) requires a separate paid license from the author.
 
-
-The contents of this repository, including the CTGS standard text and supporting documents, are released under the \*\*MIT License\*\* (see `LICENSE`).
-
-
-
-This permits reuse, modification, and redistribution, provided that:
-
-
-
-\- The MIT License terms are respected, and  
-
-\- Attribution and license notices are preserved as required.
+See `LICENSE`.
 
 
 
@@ -537,6 +528,7 @@ This permits reuse, modification, and redistribution, provided that:
 
 
 \*End of README for the Consumer Transparency Governance Standard (CTGS).\*  
+
 
 
 
